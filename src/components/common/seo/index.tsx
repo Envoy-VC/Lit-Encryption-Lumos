@@ -3,13 +3,13 @@ import { NextSeo } from 'next-seo';
 const SEO = () => {
 	return (
 		<NextSeo
-			title='Web3 Hackathon Starter'
-			description='A opinionated starter template for building web3 applications with Next.js, Tailwind CSS, and thirdweb'
+			title='Lit Encrypt and Decrypt'
+			description='A Simple App to show how to encrypt and decrypt data using Lit Protocol'
 			openGraph={{
-				url: 'https://w3-starter.vercel.app',
-				title: 'Web3 Hackathon Starter',
+				url: 'https://lit-encypt-lumos.vercel.app',
+				title: 'Lit Encrypt and Decrypt',
 				description:
-					'A opinionated starter template for building web3 applications with Next.js, Tailwind CSS, and thirdweb',
+					'A Simple App to show how to encrypt and decrypt data using Lit Protocol',
 				images: [
 					{
 						url: 'https://i.ibb.co/YhWLyTb/OG.png',
@@ -19,7 +19,7 @@ const SEO = () => {
 						type: 'image/png',
 					},
 				],
-				siteName: 'Web3 Hackathon Starter',
+				siteName: 'Lit Encrypt and Decrypt',
 			}}
 			twitter={{
 				cardType: 'summary_large_image',

@@ -2,10 +2,13 @@ import type { ReactElement } from 'react';
 import { Layout } from '~/components';
 import type { NextPageWithLayout } from './_app';
 
+import { Encrypt, Decrypt } from '~/components';
+
 const Home: NextPageWithLayout = () => {
 	return (
-		<div className='flex h-screen justify-center p-24'>
-			<div className='text-5xl'>Starter Template</div>
+		<div className='p-24'>
+			<Encrypt />
+			<Decrypt />
 		</div>
 	);
 };

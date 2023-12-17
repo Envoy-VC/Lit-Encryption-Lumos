@@ -13,14 +13,15 @@ const Navbar = () => {
 			<div className='flex flex-row items-center justify-between'>
 				<div className='flex flex-row items-center gap-2'>
 					<PiAirplaneTakeoffDuotone className='text-4xl text-blue-500' />
-					<div className='hidden text-2xl font-bold sm:flex'>Starter Template</div>
+					<div className='hidden text-2xl font-bold sm:flex'>
+						Encrypt Data with Lit
+					</div>
 				</div>
 				<div className='flex flex-row items-center gap-2'>
 					<ThemeSwitcher />
 					<ConnectWallet
 						btnTitle='Connect'
 						theme={!!theme && theme === 'dark' ? 'dark' : 'light'}
-						className='!bg-blue-500 !p-3 !text-white'
 					/>
 				</div>
 			</div>

@@ -6,7 +6,7 @@ const SEO = () => {
 			title='Lit Encrypt and Decrypt'
 			description='A Simple App to show how to encrypt and decrypt data using Lit Protocol'
 			openGraph={{
-				url: 'https://lit-encypt-lumos.vercel.app',
+				url: 'https://lit-encryption-lumos.vercel.app',
 				title: 'Lit Encrypt and Decrypt',
 				description:
 					'A Simple App to show how to encrypt and decrypt data using Lit Protocol',
